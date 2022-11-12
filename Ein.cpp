@@ -15,7 +15,7 @@ int main()
         //if(index%4 == 0)
            
 
-            cout<<"{" << "mem["<< index+3<<"]+ "<< "mem["<< index+2<<"]+ "<<"mem["<< index+1<<"]+ ""mem["<< index<<"]}"<<"="<<endl;
+            cout<<"{" << "mem["<< index+3<<"], "<< "mem["<< index+2<<"], "<<"mem["<< index+1<<"], ""mem["<< index<<"]}"<<"="<<endl;
              index = index+3;
      }
      return 0;
